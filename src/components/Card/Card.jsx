@@ -1,4 +1,5 @@
 import React from 'react'
+import { LiaAlignLeftSolid } from "react-icons/lia";
 import './Card.css';
 
 const Card = ({id, title, tag, status}) => {
@@ -15,7 +16,7 @@ const Card = ({id, title, tag, status}) => {
             <p>{title}</p>
         </div>
         <div className="cardTags">
-        <div className="tags color-orange"> ... </div>
+        <div className="tags color-orange"> <LiaAlignLeftSolid /> </div>
             {
                 tag?.map((elem, index) => {
                     return <div key={index} className="tags color-orange"> <span>•</span> {elem}</div>
