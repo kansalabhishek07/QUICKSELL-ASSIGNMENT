@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { TiThList } from "react-icons/ti";
+import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2;
 import "./TopNav.css";
 import { useDispatch, useSelector} from "react-redux";
 import { selectData } from "../../Actions/DataAction";
@@ -59,7 +59,7 @@ const TopNav = () => {
           onClick={() => setDisplayOnClick(!displayOnClick)}
         >
           {" "}
-          <TiThList /> Display
+          <HiOutlineAdjustmentsHorizontal /> Display
         </button>
         {displayOnClick && (
           <>
