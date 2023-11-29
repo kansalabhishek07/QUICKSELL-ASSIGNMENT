@@ -14,7 +14,7 @@ const Card = ({id, title, tag, status}) => {
             </div>
         </div>
         <div className="cardTitle" style={{fontWeight : 200}} >
-           <FaRegCircle /><p>{title}</p>
+           <FaRegCircle size={15}/><p>{title}</p>
         </div>
         <div className="cardTags">
         <div className="tags color-orange"> <FaCodePullRequest size={20} /> </div>
