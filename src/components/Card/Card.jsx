@@ -18,7 +18,7 @@ const Card = ({id, title, tag, status}) => {
         <div className="tags color-grey"> ... </div>
             {
                 tag?.map((elem, index) => {
-                    return <div key={index} className="tags color-orange"> <span>•</span> {elem}</div>
+                    return <div key={index} className="tags color-red"> <span>•</span> {elem}</div>
                 })
             }
         </div>
