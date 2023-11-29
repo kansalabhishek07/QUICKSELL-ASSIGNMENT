@@ -16,7 +16,7 @@ const Card = ({id, title, tag, status}) => {
             <p>{title}</p>
         </div>
         <div className="cardTags">
-        <div className="tags color-orange"> <LiaAlignLeftSolid /> </div>
+        <div className="tags color-orange"> <LiaAlignLeftSolid size={20} /> </div>
             {
                 tag?.map((elem, index) => {
                     return <div key={index} className="tags color-orange"> <span>•</span> {elem}</div>
