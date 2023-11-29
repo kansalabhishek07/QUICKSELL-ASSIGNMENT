@@ -1,9 +1,9 @@
 .dashContainer{
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 5px;
     flex-wrap: wrap;
-    background: lavender;
+    background: white;
     padding: 5px 10px;
 }
 
