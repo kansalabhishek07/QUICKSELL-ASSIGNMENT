@@ -12,5 +12,6 @@
     align-content: center;
     flex-direction: column;
     gap: 5px;
-    width : 300px;
+    width: 20%;
+    height: 100%;
 }
