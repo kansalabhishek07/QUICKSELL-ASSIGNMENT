@@ -1,6 +1,6 @@
 .dashContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     flex-wrap: wrap;
     background: white;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
     width : 300px;
 }
