@@ -3,6 +3,8 @@
     flex-direction: row;
     gap: 8px;
     background: white;
+    height: 100%;
+    width: 20%;
 }
 
 .dashCardContainer{
