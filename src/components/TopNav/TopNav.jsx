@@ -59,7 +59,7 @@ const TopNav = () => {
           onClick={() => setDisplayOnClick(!displayOnClick)}
         >
           {" "}
-          <HiOutlineAdjustmentsHorizontal /> Display
+          <HiOutlineAdjustmentsHorizontal size={20} /> Display
         </button>
         {displayOnClick && (
           <>
