@@ -1,7 +1,7 @@
 .dashContainer{
     display: flex;
     align-items: flex-start;
-    gap: 5px;
+    gap: 2px;
     flex-wrap: wrap;
     background: white;
     padding: 5px 10px;
