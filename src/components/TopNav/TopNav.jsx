@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2;
+import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import "./TopNav.css";
 import { useDispatch, useSelector} from "react-redux";
 import { selectData } from "../../Actions/DataAction";
