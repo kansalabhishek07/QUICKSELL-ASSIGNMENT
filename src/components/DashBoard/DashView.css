@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex-wrap: wrap;
     background: white;
     width: 20%;
-    height: 80%;
+    height: 100%;
 }
 
 .dashCardContainer{
