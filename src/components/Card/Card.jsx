@@ -1,5 +1,5 @@
 import React from 'react'
-import { LiaAlignLeftSolid } from "react-icons/lia";
+import { FaCodePullRequest } from "react-icons/fa6";
 import './Card.css';
 
 const Card = ({id, title, tag, status}) => {
@@ -16,7 +16,7 @@ const Card = ({id, title, tag, status}) => {
             <p>{title}</p>
         </div>
         <div className="cardTags">
-        <div className="tags color-orange"> <LiaAlignLeftSolid size={20} /> </div>
+        <div className="tags color-orange"> <FaCodePullRequest size={20} /> </div>
             {
                 tag?.map((elem, index) => {
                     return <div key={index} className="tags color-orange"> <span>•</span> {elem}</div>
