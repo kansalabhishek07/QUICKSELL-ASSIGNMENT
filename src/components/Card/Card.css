@@ -24,6 +24,7 @@
 .cardTags{
     display: flex;
     align-items: center;
+    font-size: small;
     gap: 5px;
 }
 
