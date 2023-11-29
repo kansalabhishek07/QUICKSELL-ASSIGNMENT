@@ -20,7 +20,7 @@ const DashView = () => {
                 <div className="dashCardHeading flex-sb">
                   <div className="leftView">
                     {!user ? (
-                      <TiAdjustContrast />
+                      <TiAdjustContrast size={24} />
                     ) : (
                       <>
                         <div
