@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCodePullRequest } from "react-icons/fa6";
+import { FaRegCircle } from "react-icons/fa";
 import './Card.css';
 
 const Card = ({id, title, tag, status}) => {
@@ -13,7 +14,7 @@ const Card = ({id, title, tag, status}) => {
             </div>
         </div>
         <div className="cardTitle" style={{fontWeight : 200}} >
-            <p>{title}</p>
+           <FaRegCircle /><p>{title}</p>
         </div>
         <div className="cardTags">
         <div className="tags color-orange"> <FaCodePullRequest size={20} /> </div>
