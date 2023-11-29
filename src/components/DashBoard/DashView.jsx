@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { DiCodeigniter } from "react-icons/di";
+import { TiAdjustContrast } from "react-icons/ti";
 import { AiOutlinePlus } from "react-icons/ai";
 import "./DashView.css";
 import Card from "../Card/Card";
@@ -20,7 +20,7 @@ const DashView = () => {
                 <div className="dashCardHeading flex-sb">
                   <div className="leftView">
                     {!user ? (
-                      <DiCodeigniter />
+                      <TiAdjustContrast />
                     ) : (
                       <>
                         <div
